@@ -37,13 +37,50 @@
 		</dependency>
 	</dependencies>
 
+
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+				<plugin>
+					<groupId>io.fxlabs</groupId>
+					<artifactId>fxt-job-maven-plugin</artifactId>
+					<version>1.0-SNAPSHOT</version>
+					<configuration>
+						<username>shoukath@fxlabs.io</username>
+						<password>shoukath@fxlabs.io</password>
+						<jobId>8a8081e565b474b10165b4c24d1b1adf</jobId>
+					</configuration>
+
+					<!--	<configuration>
+                            <host>http://13.56.210.25</host>
+                            <username>shoukathmd//shoukathmd@gmail.com</username>
+                            <password>admin12#$</password>
+                            <jobId>8a8080cf65e02c0f0165e0440b3a0d03</jobId>
+                        </configuration>-->
+
+					<!--<executions>-->
+					<!--<execution>-->
+					<!--<id>second-execution</id>-->
+					<!--&lt;!&ndash;<phase>validate</phase>&ndash;&gt;-->
+					<!--<goals>-->
+					<!--<goal>job</goal>-->
+					<!--</goals>-->
+					<!--<configuration>-->
+					<!--<host>http://13.56.210.25</host>-->
+					<!--<username>shoukathmd//shoukathmd@gmail.com</username>-->
+					<!--<password>admin12#$</password>-->
+					<!--<jobId>8a8080cf65e02c0f0165e0440b3a0d03</jobId>-->
+					<!--</configuration>-->
+					<!--</execution>-->
+					<!--</executions>-->
+
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 
 
