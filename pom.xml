@@ -53,9 +53,9 @@
 				<plugin>
 					<groupId>io.fxlabs</groupId>
 					<artifactId>fxt-job-maven-plugin</artifactId>
-					<version>1.0-SNAPSHOT</version>
+					<version>1.0.0</version>
 					<configuration>
-						<username>shoukath@fxlabs.io</username>
+						<username>FXLabs//shoukath@fxlabs.io</username>
 						<password>shoukath@fxlabs.io</password>
 						<jobId>8a8081e565b474b10165b4c24d1b1adf</jobId>
 					</configuration>
