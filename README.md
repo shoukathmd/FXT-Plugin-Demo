@@ -6,6 +6,18 @@ Requirements to run this project
 1. Java8
 2. Maven
 
-Clone the project and run below in project directory command
+Clone the project and go to pom.xml file and change the username, password and jobid of yours from https://clouds.fxlabs.io 
+
+
+          <configuration>
+						<username>tenant//shoukathmd@gmail.com</username>
+						<password>{pwd}</password>
+						<jobId>{jobid}</jobId>
+					</configuration>
+
+
+
+
+run below command in project directory which will trigger the job in fxlabs.
 
 mvn clean fxlabs:job
