@@ -60,6 +60,7 @@
 						<username>shoukath@fxlabs.io</username>
 						<password>shoukath@fxlabs.io</password>
 						<jobId>8a8081306654f8930166581decde3c1a</jobId>
+						<region>FXLabs/WEST_US_2</region>
 					</configuration>
                     <!-- Below configuaration is for FXLabs UAT -->
 					<!--<configuration>-->
