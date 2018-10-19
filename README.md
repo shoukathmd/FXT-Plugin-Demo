@@ -21,3 +21,8 @@ Clone the project and go to pom.xml file and change the username, password and j
 run below command in project directory which will trigger the job in fxlabs.
 
 mvn clean fxlabs:job
+
+to see the results on fxlabs go to 
+
+https://cloud.fxlabs.io/#/app/projects/{projectid}/jobs/{jobid}/runs
+
